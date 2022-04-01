@@ -27,7 +27,7 @@ li a, .header .text {
 
 .header {
     background-color: #1F2937;
-    padding: 5px 100px 200px 100px;
+    padding: 5px 200px 200px 200px;
     display: flex;
     flex-direction: column;
     
@@ -72,13 +72,7 @@ a.button {
     display: flex;
     gap: 30px;
     flex: 1;
-    justify-content: space-between;
-    
-    
-    
-        
-    
-    
+    justify-content: space-between;    
 }
 
 .header .h-text {
@@ -88,11 +82,16 @@ a.button {
     gap: 10px;
     flex:1 ;
     justify-content: space-between;
-    max-width: 641px;
-    
-    
-    
-    
+    max-width: 641px;    
+}
+
+
+.information-header {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 /* {
