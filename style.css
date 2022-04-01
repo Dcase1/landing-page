@@ -1,12 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 li a, .header .text {
@@ -19,10 +22,13 @@ li a, .header .text {
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header {
     background-color: #1F2937;
+    padding: 10px;
+    
 }
 
 .header .hero {
@@ -39,6 +45,12 @@ button {
     border: none;
     color: white;
     
+}
+
+.h-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
