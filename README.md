@@ -15,4 +15,8 @@ CSS flexbox for page layout
 Image credits:
 
 -Photo by Pixabay: https://www.pexels.com/photo/body-of-water-during-dawn-37403/
+-Photo by figen kokol from Pexels
+-Photo by figen kokol from Pexels
+-Photo by figen kokol from Pexels
+-Photo by figen kokol from Pexels
 
