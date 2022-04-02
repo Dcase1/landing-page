@@ -9,7 +9,10 @@ Skills Used:
 
 Basic HTML setup
 CSS for styling text and background colors
+
 CSS flexbox for page layout
+
+How to correctly layout page when the browser size changes
 
 
 Image credits:
