@@ -1,8 +1,9 @@
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
+    box-sizing: border-box;
 }
+
+/*First section styling*/
 
 ul {
     margin: 0;
@@ -27,11 +28,12 @@ li a, .header .text {
 
 .header {
     background-color: #1F2937;
-    padding: 5px 200px 200px 200px;
+    padding-top: 5px;
+    padding-bottom: 160px;
     display: flex;
-    flex-direction: column;
-    
-      
+    flex-wrap: wrap;
+    justify-content: center;
+          
 }
 
 .header .hero {
@@ -50,41 +52,59 @@ a.button {
     text-decoration: none;
     text-align: center;
     font-size: 24px;
-    display: inline-block;
-    
-    
+    display: inline-block;    
 }
 
-.header .h-top {
+/*Flexbox stuff/first section layout*/
+
+/*Contains entire page, used instead of applying styles to body*/
+
+.wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 100px;
-    
+    height: 100vh;
+    flex-direction: column;
 }
+
+/*Contains image*/
 
 .image {
-    flex: 0 1 auto;
-    
+    max-width: 50%;    
 }
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/*Contains text, button, and image*/
 
 .container {
     display: flex;
+    width: 75%;
     gap: 30px;
-    flex: 1;
-    justify-content: space-between;    
-}
-
-.header .h-text {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px;
-    flex:1 ;
     justify-content: space-between;
-    max-width: 641px;    
 }
 
+/*Contains logo and links*/
+
+.h-top {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+/*Contains text and button*/
+
+.h-text {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 50%;
+    align-content: space-between;
+    gap: 20px;
+}
+
+/*Second section*/
 
 .information-header {
     text-align: center;
@@ -93,6 +113,9 @@ a.button {
     font-weight: bolder;
     color: #1F2937;
 }
+
+
+/*This is for debugging, leave commented*/
 
 /* {
     border: 1px solid red;
