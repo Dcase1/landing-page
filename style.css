@@ -118,7 +118,6 @@ img {
     display: flex;
     width: 100%;
     justify-content: center;
-    text-align: center;
     margin-top: 50px;
     font-size: 36px;
     font-weight: bolder;
@@ -128,15 +127,20 @@ img {
 /*Images and information*/
 
 .information {
-    display: flex;    
-    max-width: 80%;
+    display: flex;
+    justify-content: center;   
+    max-width: 60%;
     gap: 40px;    
 }
 
 .information .info-image {
     text-align: center;
-    border-radius: 10px;
-    border: 3px solid lightblue;
+    max-width: 25%;
+    max-height: 50%;    
+}
+
+.info-image img {
+    border-radius: 15px;
 }
 
 
