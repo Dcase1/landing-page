@@ -18,8 +18,18 @@ How to correctly layout page when the browser size changes
 Image credits:
 
 -Photo by Pixabay: https://www.pexels.com/photo/body-of-water-during-dawn-37403/
+
 -Photo by figen kokol from Pexels
+
 -Photo by figen kokol from Pexels
+
 -Photo by figen kokol from Pexels
+
 -Photo by figen kokol from Pexels
+
+TOP Design Reference Images:
+
+https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
+
+https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png
 
