@@ -55,7 +55,7 @@ a.button {
     display: inline-block;    
 }
 
-/*Flexbox stuff/first section layout*/
+/*Flexbox stuff*/
 
 /*Contains entire page, used instead of applying styles to body*/
 
@@ -64,6 +64,8 @@ a.button {
     height: 100%;
     flex-direction: column;
 }
+
+/*First section layout*/
 
 /*Contains image*/
 
@@ -129,7 +131,7 @@ img {
 
 .information {
     display: flex;
-    justify-content: center;   
+    justify-content: center; 
     max-width: 60%;
     gap: 40px;    
 }
@@ -167,6 +169,50 @@ img {
     justify-content: flex-end;
     width: 50%;
     
+}
+
+/* Call to action section*/
+
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    align-self: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    
+}
+
+/*Contains button in call to action section*/
+
+.button .button2{
+    border: 2px solid white;    
+}
+
+.call-to-action .button{
+    flex-shrink: 0;
+}
+
+/*Contains text only in action section*/
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 75%;  
+    
+}
+
+/* Contains button and text in call to action section*/
+
+.call-to-action .action-container{
+    width: 60%;
+    display: flex;   
+    align-items: center; 
+    gap: 30px;
 }
 
 /*This is for debugging, leave commented*/
