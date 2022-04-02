@@ -154,6 +154,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 15px;
 }
 
 .quote {
@@ -168,8 +169,7 @@ img {
     display: flex;
     justify-content: flex-end;
     width: 50%;
-    margin-top: -15px;
-    
+    margin-top: -15px;    
 }
 
 /* Call to action section*/
@@ -184,8 +184,7 @@ img {
     align-self: center;
     margin-top: 75px;
     margin-bottom: 75px;
-    border-radius: 15px;
-    
+    border-radius: 15px;    
 }
 
 .call-to-action-head{
@@ -198,7 +197,6 @@ img {
 .call-to-action-subtext{
     color: #F9FAF8;
     margin-top: -15px;
-
 }
 
 /*Contains button in call to action section*/
@@ -217,9 +215,7 @@ img {
     display: flex;
     flex-direction: column;   
     justify-content: center;
-    width: 75%;
-    
-         
+    width: 75%;        
 }
 
 /* Contains button and text in call to action section*/
@@ -230,6 +226,24 @@ img {
     align-items: center; 
     gap: 30px;
 }
+
+/*Footer section*/
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+
+
 
 /*This is for debugging, leave commented*/
 
